@@ -46,7 +46,7 @@ public class Transaction {
     private PaymentMethod paymentMethod;
 
     @Enumerated(EnumType.STRING)
-    private TransactionStatus transactionStatus;
+    private TransactionStatus status;
 
     private String responseCode;
     private String authorizationCode;
